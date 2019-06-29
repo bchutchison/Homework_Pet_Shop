@@ -73,7 +73,7 @@ def remove_customer_cash(array_customer, money)
 end
 
 
-#review laters. Output is 0 if printed to screen. Why does this not return 0 to the test?? *initially didnt spot that i was in the first customer within the array. I was treating the problem like i was in the whole array. Simple was i realised where i was!
+#review later. Output is 0 if printed to screen. Why does this not return 0 to the test?? *initially didnt spot that i was in the first customer within the array. I was treating the problem like i was in the whole array. Simple once i realised where i was!
 # def customer_pet_count(array_customer)
 #  total_pets = 0
 #   for pet in array_customer
@@ -89,7 +89,6 @@ return array_customer[:pets].count
 end
 
 
-
 #test for function above.
 # customer = {pets: []}
 # puts customer[:pets].count()
@@ -99,8 +98,6 @@ def add_pet_to_customer(array_customer, array_new_pet)
   array_customer[:pets] << array_new_pet
 end
 
-# @customers[0][:pets].push(@new_pet)
-# puts @customers
 
 
 
